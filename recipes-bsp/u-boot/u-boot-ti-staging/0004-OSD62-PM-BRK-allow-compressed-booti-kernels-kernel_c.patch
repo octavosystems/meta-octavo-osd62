@@ -1,0 +1,23 @@
+From ac446548d0a9df1e5ed22a134cd30499b412fa8d Mon Sep 17 00:00:00 2001
+From: Neeraj Dantu <dantuguf14105@gmail.com>
+Date: Fri, 24 Oct 2025 17:24:03 -0400
+Subject: [PATCH] OSD62-PM-BRK-allow-compressed-booti-kernels-kernel_c
+
+---
+ board/octavo/osd62x/osd62x.env | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/board/octavo/osd62x/osd62x.env b/board/octavo/osd62x/osd62x.env
+index 71b11950d8b..4cca035531a 100644
+--- a/board/octavo/osd62x/osd62x.env
++++ b/board/octavo/osd62x/osd62x.env
+@@ -19,6 +19,9 @@ bootpart=1:2
+ bootdir=/boot
+ rd_spec=-
+ 
++kernel_comp_addr_r=0x85000000
++kernel_comp_size=0x20000000
++
+ splashfile=octavo_884x266_32bpp.bmp.gz
+ splashimage=0x80200000
+ splashpos=m,m

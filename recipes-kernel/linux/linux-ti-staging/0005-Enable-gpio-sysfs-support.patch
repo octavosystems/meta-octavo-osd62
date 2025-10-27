@@ -1,0 +1,20 @@
+From 45ea5542353b0e9e68b51c310223b738cb387b8a Mon Sep 17 00:00:00 2001
+From: Neeraj Dantu <dantuguf14105@gmail.com>
+Date: Fri, 24 Oct 2025 17:47:56 -0400
+Subject: [PATCH] Enable gpio-sysfs-support
+
+---
+ arch/arm64/configs/defconfig | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/arch/arm64/configs/defconfig b/arch/arm64/configs/defconfig
+index bc2e6647cce1..22949513f786 100644
+--- a/arch/arm64/configs/defconfig
++++ b/arch/arm64/configs/defconfig
+@@ -1678,3 +1678,6 @@ CONFIG_CORESIGHT_STM=m
+ CONFIG_CORESIGHT_CPU_DEBUG=m
+ CONFIG_CORESIGHT_CTI=m
+ CONFIG_MEMTEST=y
++CONFIG_EXPERT=y
++CONFIG_GPIO_SYSFS=y
++CONFIG_HAVE_ARCH_KCSAN=y
