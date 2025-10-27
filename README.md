@@ -30,6 +30,8 @@ Table of Contents
 
 III. Flash SD card
 
+ IV.Powering your OSD62-PM-BRK board
+
 
 I. Setting up Yocto build fo OSD62-PM-BRK
 =================================================
@@ -114,14 +116,13 @@ sudo dd if=tisdk-default-image-osd62-pm-brk.rootfs-*.wic of=/dev/<sdX> bs=10M co
 # IV. Powering your OSD62-PM-BRK board
 1. Connect USB to UART adapter to Host machine USB port
 2. Connect UART side of the USB to UART adapter to UART header(JP1) of OSD62-PM-BRK
-3. Connect accessories: Camera/Display. Note that the display comes with it's own power supply. Display needs to be powered separately from the board
-4. Bring-up a terminal application(Putty/Minicom/picocom) on host machine for the USB to UART adapter:
+3. Bring-up a terminal application(Putty/Minicom/picocom) on host machine for the USB to UART adapter:
    ```
    picocom -b 115200 /dev/ttyUSB[x]
    ```
-5. Use a USB-C cable to connect the host machine to OSD62-PM-BRK
-6. Bootlogs should appear on the terminal application
-7. Board login username: "root". No password is set for this user.
-8. Start your application development!
+4. Use a USB-C cable to connect the host machine to OSD62-PM-BRK
+5. Bootlogs should appear on the terminal application
+6. Board login username: "root". No password is set for this user.
+7. Start your application development!
 
 For technical support, please visit: https://octavosystems.com/forums/
