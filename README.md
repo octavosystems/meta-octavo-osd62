@@ -55,7 +55,9 @@ Table of Contents
 =================
 
   I. Setting up Yocto build fo OSD62-PM-BRK
+  
  II. Adding the meta-octavo-osd62 layer to your build
+
 III. Flash SD card
 
 
