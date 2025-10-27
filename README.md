@@ -53,6 +53,17 @@ I. Pre-requisites
 ```
 sudo apt update
 ```
+```
+sudo apt-get -f -y install \
+  git build-essential diffstat texinfo gawk chrpath socat doxygen \
+  dos2unix python3 bison flex libssl-dev u-boot-tools mono-devel \
+  mono-complete curl python3-distutils repo pseudo python3-sphinx \
+  g++-multilib libc6-dev-i386 jq git-lfs pigz zstd liblz4-tool \
+  cpio file lz4 debianutils iputils-ping python3-git python3-jinja2 \
+  python3-subunit locales libacl1 unzip gcc python3-pip python3-pexpect \
+  xz-utils wget \
+```
+
 
 Run 'bitbake-layers add-layer meta-octavo-osd62'
 
