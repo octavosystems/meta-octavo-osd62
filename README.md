@@ -1,6 +1,6 @@
 # meta-octavo-osd62 layer
 
-Please see the corresponding sections below for details. Getting started instructions are provided in the "Getting Started" section
+Please see the corresponding sections below for details.
 
 Dependencies
 ============
