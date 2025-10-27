@@ -8,46 +8,16 @@ Dependencies
   | URI | branch |
   | ------- | ------- |
   | Bitbake: https://git.openembedded.org/bitbake |  scarthgap (2.8) |
-
-  URI: meta-tisdk: https://github.com/TexasInstruments/meta-tisdk.git
-  
-  branch: scarthgap (10.01.10.04)
-
-  URI: meta-arago: https://git.yoctoproject.org/meta-arago
-  
-  branch: scarthgap (10.01.10)
-
-  URI: meta-qt5: https://github.com/meta-qt5/meta-qt5.git
-  
-  branch: scarthgap
-
-  URI: meta-virtualization: https://git.yoctoproject.org/meta-virtualization
-  
-  branch: scarthgap
-
-  URI: meta-openembedded: https://git.openembedded.org/meta-openembedded
-  
-  branch: scarthgap
-
-  URI: meta-ti: https://git.yoctoproject.org/meta-ti
-  
-  branch: scarthgap (10.01.10)
-
-  URI: meta-arm: https://git.yoctoproject.org/meta-arm
-  
-  branch: scarthgap
-
-  URI: meta-clang: https://github.com/kraj/meta-clang
-  
-  branch: scarthgap
-
-  URI: oe-core: https://git.openembedded.org/openembedded-core
-  
-  branch: scarthgap
-
-  URI: meta-edgeai: https://git.ti.com/git/edgeai/meta-edgeai.git
-  
-  branch: scarthgap (10.01.10.04)
+  | meta-tisdk: https://github.com/TexasInstruments/meta-tisdk.git | scarthgap (10.01.10.04) | 
+  | meta-arago: https://git.yoctoproject.org/meta-arago | scarthgap (10.01.10) |
+  | meta-qt5: https://github.com/meta-qt5/meta-qt5.git | scarthgap |
+  | meta-virtualization: https://git.yoctoproject.org/meta-virtualization | scarthgap |
+  | meta-openembedded: https://git.openembedded.org/meta-openembedded | scarthgap |
+  | meta-ti: https://git.yoctoproject.org/meta-ti | scarthgap (10.01.10) |
+  | meta-arm: https://git.yoctoproject.org/meta-arm | scarthgap |
+  | meta-clang: https://github.com/kraj/meta-clang | scarthgap |
+  | oe-core: https://git.openembedded.org/openembedded-core | scarthgap |
+  | meta-edgeai: https://git.ti.com/git/edgeai/meta-edgeai.git | scarthgap (10.01.10.04) |
 
 Maintainer: Neeraj Dantu <dantuguf14105@gmail.com>
 
