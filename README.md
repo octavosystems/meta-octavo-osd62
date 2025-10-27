@@ -111,7 +111,7 @@ Flash the image to the SD card (Repalce sdX with appropriate path for your SD ca
 sudo dd if=tisdk-default-image-osd62-pm-brk.rootfs-*.wic of=/dev/<sdX> bs=10M conv=fdatasync status=progress
 ```
 
-## IV. Powering your OSD62-PM-BRK board
+# IV. Powering your OSD62-PM-BRK board
 1. Connect USB to UART adapter to Host machine USB port
 2. Connect UART side of the USB to UART adapter to UART header(JP1) of OSD62-PM-BRK
 3. Connect accessories: Camera/Display. Note that the display comes with it's own power supply. Display needs to be powered separately from the board
