@@ -5,7 +5,8 @@ Please see the corresponding sections below for details. Getting started instruc
 Dependencies
 ============
 
-  |URI|branch|
+  | URI | branch |
+  | ------- | ------- |
   | Bitbake: https://git.openembedded.org/bitbake |  scarthgap (2.8) |
 
   URI: meta-tisdk: https://github.com/TexasInstruments/meta-tisdk.git
