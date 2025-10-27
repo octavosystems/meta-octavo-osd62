@@ -6,36 +6,47 @@ Dependencies
 ============
 
   URI: Bitbake: https://git.openembedded.org/bitbake
+  
   branch: scarthgap (2.8)
 
   URI: meta-tisdk: https://github.com/TexasInstruments/meta-tisdk.git
+  
   branch: scarthgap (10.01.10.04)
 
   URI: meta-arago: https://git.yoctoproject.org/meta-arago
+  
   branch: scarthgap (10.01.10)
 
   URI: meta-qt5: https://github.com/meta-qt5/meta-qt5.git
+  
   branch: scarthgap
 
   URI: meta-virtualization: https://git.yoctoproject.org/meta-virtualization
+  
   branch: scarthgap
 
   URI: meta-openembedded: https://git.openembedded.org/meta-openembedded
+  
   branch: scarthgap
 
   URI: meta-ti: https://git.yoctoproject.org/meta-ti
+  
   branch: scarthgap (10.01.10)
 
   URI: meta-arm: https://git.yoctoproject.org/meta-arm
+  
   branch: scarthgap
 
   URI: meta-clang: https://github.com/kraj/meta-clang
+  
   branch: scarthgap
 
   URI: oe-core: https://git.openembedded.org/openembedded-core
+  
   branch: scarthgap
 
   URI: meta-edgeai: https://git.ti.com/git/edgeai/meta-edgeai.git
+  
   branch: scarthgap (10.01.10.04)
 
 Maintainer: Neeraj Dantu <dantuguf14105@gmail.com>
