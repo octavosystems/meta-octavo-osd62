@@ -73,7 +73,7 @@ Config file version: **processor-sdk-scarthgap-chromium-10.01.10.04-config.txt**
 ```
 Clone this repository to **sources** directory:
 ```
-git clone https://github.com/octavosystems/meta-octavo-osd62 sources
+git clone https://github.com/octavosystems/meta-octavo-osd62 ./sources/meta-octavo-osd62/
 ```
 ```
 cd build
